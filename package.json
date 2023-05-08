@@ -1,0 +1,23 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf ./node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwesleya/javascript-algorithms.git"
+  },
+  "author": "Wesley A. Chambers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwesleya/javascript-algorithms/issues"
+  },
+  "homepage": "https://github.com/cwesleya/javascript-algorithms#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
