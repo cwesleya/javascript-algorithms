@@ -22,7 +22,7 @@ function reverseArray(array) {
 }
 ```
 
-### Basic steps to take when solving problem in code:
+### Basic steps to take when solving a problem in code:
 1. Read every problem carefully---twice if you need to. Make sure you know exactly what it's asking for before trying to solve it. You can't solve what you don't fully understand.
 2. It usually helps to solve it manually. Maybe even try to write it out, step by step, in English. This is called pseudo-code. Code can only solve a problem that's solvable manually.
 3. Write the code that solves it.
