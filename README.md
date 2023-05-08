@@ -28,7 +28,7 @@ function reverseArray(array) {
 3. Write the code that solves it.
 4. If you have time, modify your code to make it perform better.
 
-Example: Write a function that accepts an array of numbers and returns true if there is at least one duplicate number and false otherwise. Assume that only integers will be in the array."
+Example: Write a function that accepts an array of numbers and returns true if there is at least one duplicate number and false otherwise. Assume that only integers will be in the array.
 
 1. Ok, I read it twice. I know what it's asking me to do.
 2. Manual solution in pseudo-code:
