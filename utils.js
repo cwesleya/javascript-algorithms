@@ -10,8 +10,8 @@ function functionNotExistsMsg(funcName) {
   console.log(`NO TEST: ${funcName} hasn\'t been completed or isn\'t exported.`);
 }
 
-//module.exports = {
-runningTestCasesMsg,
+module.exports = {
+  runningTestCasesMsg,
   functionNotExists,
   functionNotExistsMsg,
 };
