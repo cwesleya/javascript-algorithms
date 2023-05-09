@@ -1,8 +1,9 @@
 /**
-Write a function that takes a nested array and returns whether a target value is present at every level and false otherwise.
+Write a function that takes a nested array and returns whether a target 
+  value is present at every level and false otherwise.
 
  * @param {string|number|any[]} nestedArray
- * @param {string|number[]} target
+ * @param {string|number} target
  * @param {boolean} present
  * @return {boolean}
 */
