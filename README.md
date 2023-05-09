@@ -45,7 +45,7 @@ function hasDuplicates(arrayInt) {
 
       for (let j = i+1; j < arrayInt.length; j++) {
           //notice we set j = i+1. why is that a good idea?
-          if (arrayInt[i] === arrayInt[j]) {
+          if (current === arrayInt[j]) {
               return true;
           }
       }
