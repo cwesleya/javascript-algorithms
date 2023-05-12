@@ -1,9 +1,11 @@
 # Algorithms in Javascript
 
-## The aim of this repo is to help you learn to think like a programmer while learning Javascript.
+## The aim of this repo is to help you learn to think like a programmer while learning Javascript. Along the way, you can learn lessons about:
+  - `git`, which is what you will use to interact with this repo
+  - `jest`, the testing framework this repo uses to test your solutions
+  - and `node`, which you will need in order to run any of this code outside of a browser.
 
-### As far as possible, try to solve these problems without using built-in javascript methods.
-For example, if a problem says to reverse an array, don't use `.reverse()`! Rather, write a function that tries to do what `.reverse()` does under the hood. That's how you learn to think like a programmer. It would go something like this:
+### As far as possible, try to solve these problems without using built-in javascript methods. For example, if a problem says to reverse an array, don't use `.reverse()`! Rather, write a function that tries to do what `.reverse()` does under the hood. That's how you learn to think like a programmer. It would go something like this:
 
 ```javascript
 //this reverses an array in place
