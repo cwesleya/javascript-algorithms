@@ -24,8 +24,6 @@ function reverseArray(array) {
 }
 ```
 
-### You should also try to solve a problem in different ways. Did you use a `while` loop? Write it again with a `for` loop. Is it an iterative solution? See if you can do it recursively, and vice versa. The more ways you practice, the better you'll get and faster you'll learn.
-
 ### Basic steps to take when solving a problem in code:
 1. Read every problem carefully---twice if you need to. Make sure you know exactly what it's asking for before trying to solve it. You can't solve what you don't fully understand.
 2. It usually helps to solve it manually. Maybe even try to write it out, step by step, in English. This is called pseudo-code. Code can only solve a problem that's solvable manually.
@@ -70,7 +68,9 @@ function hasDuplicates(arrayInt) {
     const seenNumbers = { };
 
     for (let i = 0; i < arrayInt.length; i++) {
-        if (seenNumbers[arrayInt[i]]) {
+        const currentNumber = arrayInt[i];
+
+        if (seenNumbers[currentNumber] !== undefined) {
             /*
              if I ran across it earlier in the array and added the key in the dictionary,
              this will be true. 'undefined' is evaluated as false in js!
@@ -78,7 +78,7 @@ function hasDuplicates(arrayInt) {
             return true; // return true when first duplicate found. no need to go any further
         }
 
-        seenNumbers[arrayInt[i]] = true; // otherwise, add this number as a key to dictionary.
+        seenNumbers[currentNumber] = true; // otherwise, add this number as a key to dictionary.
     }
 
     return false;
