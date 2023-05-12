@@ -24,7 +24,7 @@ function reverseArray(array) {
 }
 ```
 
-### You should also try to solve a problem in different ways. Did you use a `while` loop? Write it again with a `for` loop. Is it an iterative solution? See if you can do it recursively, and vice versa. The more ways you practice, the better you'll get and f aster you'll learn.
+### You should also try to solve a problem in different ways. Did you use a `while` loop? Write it again with a `for` loop. Is it an iterative solution? See if you can do it recursively, and vice versa. The more ways you practice, the better you'll get and faster you'll learn.
 
 ### Basic steps to take when solving a problem in code:
 1. Read every problem carefully---twice if you need to. Make sure you know exactly what it's asking for before trying to solve it. You can't solve what you don't fully understand.
