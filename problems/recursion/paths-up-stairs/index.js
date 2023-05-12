@@ -11,4 +11,4 @@ function pathsUpStairs(n, seenIt = []) {
 
 }
 
-module.exports = pathsUpStairs;
+//module.exports = pathsUpStairs;
