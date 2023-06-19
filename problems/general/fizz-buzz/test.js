@@ -23,3 +23,4 @@ test(runningTestCasesMsg('fizzBuzz'), () => {
   expect(fizzBuzz(100))
     .toBe(result);
 });
+

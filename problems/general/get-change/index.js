@@ -11,7 +11,32 @@
 */
 
 function getChange(amount) {
+  let change,
+    qtrCount,
+    dimeCount,
+    nickelCount = 0;
 
+  const qtr = amount / 0.25;
+  qtrCount = Math.floor(qtr);
+  change = Math.round((amount - qtrCount * 0.25) * 100) / 100;
+
+  const dime = change / 0.1;
+  dimeCount = Math.floor(dime);
+  change = Math.round((change - dimeCount * 0.1) * 100) / 100;
+
+  const nickle = change / 0.05;
+  nickelCount = Math.floor(nickle);
+  change = Math.round((change - nickelCount * 0.05) * 100) / 100;
+
+  const penny = change / 0.01;
+  pennyCount = Math.floor(penny);
+  change = Math.round((change - pennyCount * 0.01) * 100) / 100;
+
+  let totalCoins = qtrCount + dimeCount + nickelCount + pennyCount;
+
+  return totalCoins;
 }
 
-//module.exports = getChange;
+getChange(1.31);
+
+module.exports = getChange;
