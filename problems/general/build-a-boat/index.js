@@ -9,7 +9,7 @@
 */
 
 function Boat() {
- console.log();
+
 }
 
 // class Boat {
