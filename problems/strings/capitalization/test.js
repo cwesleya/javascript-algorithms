@@ -11,6 +11,8 @@ test(runningTestCasesMsg('capitalization'), () => {
     return;
   }
 
+  const testString = 'this is the string i am testing.';
+
   expect(capitalization('this is the string i am testing.'))
     .toBe('This Is The String I Am Testing.');
 

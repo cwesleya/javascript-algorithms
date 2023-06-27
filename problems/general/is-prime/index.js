@@ -6,7 +6,31 @@ Write a function that takes a number returns true if it is prime and false other
 */
 
 function isPrime(n) {
-
+  if (n <= 1) {
+    return false;
+  } 
+  
+  else if (n > 2 && n % 2 === 0) {
+    return false;
+  } 
+  
+  else if (n > 3 && n % 3 === 0) {
+    return false;
+  } 
+  
+  else if (n > 5 && n % 5 === 0) {
+    return false;
+  } 
+  
+  else if (n > 7 && n % 7 === 0) {
+    return false;
+  } 
+  
+  else {
+    return true;
+  }
 }
 
-//module.exports = isPrime;
+isPrime(15485867);
+
+module.exports = isPrime;
