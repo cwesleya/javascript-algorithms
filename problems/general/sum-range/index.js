@@ -11,6 +11,7 @@ function sumRange(n, m) {
   for (let i = n ; i <= m; i++) {
     sum = sum + i;
   }
+  
   return sum;
 }
 

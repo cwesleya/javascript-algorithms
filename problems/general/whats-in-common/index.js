@@ -13,13 +13,14 @@ function whatsInCommon(array1, array2) {
   for (let i = 0; i < array1.length; i++) {
     for (let j = 0; j < array2.length; j++) {
       if (array1[i] === array2[j]) {
-        matches.push(array1[i])
+        matches.push(array1[i]);
       }
     }
   }
-  return matches
+  
+  return matches;
 }
 
 whatsInCommon([1, 2, 3], [2, 4, 3,]);
 
-//module.exports = whatsInCommon;
+module.exports = whatsInCommon;

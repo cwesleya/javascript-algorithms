@@ -31,6 +31,6 @@ function isPrime(n) {
   }
 }
 
-isPrime(15485863);
+isPrime(15485867);
 
 module.exports = isPrime;

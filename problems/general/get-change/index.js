@@ -32,6 +32,7 @@ function getChange(amount) {
   pennyCount = Math.floor(penny);
   change = Math.round((change - pennyCount * 0.01) * 100) / 100;
 
+  
   let totalCoins = qtrCount + dimeCount + nickelCount + pennyCount;
 
   return totalCoins;

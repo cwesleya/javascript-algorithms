@@ -16,18 +16,6 @@ function findMissingNumber(array) {
   return results;
 }
 
-// function findMissingNumber(array) {
-//   const missArr = array;
-//   const fullArr = [1, 2, 3, 4, 5];
-
-//   for (let i = 0; i < fullArr.length; i++) {
-//     if (fullArr[i] !== missArr[i]) {
-//       let found = missArr[i] -1 ;
-//       return found;
-//     }
-//   }
-// }
-
 findMissingNumber([1, 2, 3, 5]);
 
 module.exports = findMissingNumber;

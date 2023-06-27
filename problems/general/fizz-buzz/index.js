@@ -6,6 +6,7 @@ Write a function that takes a number n and does the following:
   - If i is divisible by 3, add 'fizz' to the string
   - If i is divisible by 5, add 'buzz' to the string
   - If i is divisible by 3 and 5, add 'fizzbuzz' to the string
+  
 
  * @param {number} n
  * @return {string}

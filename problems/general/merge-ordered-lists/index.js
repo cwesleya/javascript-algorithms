@@ -15,4 +15,5 @@ function mergeOrderedLists(list1 = [], list2 = []) {
 
 mergeOrderedLists([1, 3, 5, 7, 9], [2, 4, 6, 8]);
 
+
 module.exports = mergeOrderedLists;
