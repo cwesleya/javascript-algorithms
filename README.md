@@ -107,13 +107,19 @@ function hasDuplicates(numsArray) {
 ```
 
 ## Setup
-To run this app you will need [Node](https://nodejs.org/).
 
 To add a solution, go to the `index.js` file for a given problem.
 
 Add your solution inside the function and un-comment the `module.exports = <functionName>;` line at the bottom.
 
-## Testing
+### Running with Docker
+If you have [Docker](https://hub.docker.com/), the command `npm run docker:build` will build the image and `npm run docker:run` will run the application tests and output your answer(s) in the console. 
+
+You can remove the container and image with `npm run docker:clean`.
+
+### Running without Docker
+If you do not have Docker, to run this application you will need [Node](https://nodejs.org/), preferably version 21 or later.
+
 Navigate to the root directory of the repository.
 
 Run `npm install` to pull in the code dependencies.

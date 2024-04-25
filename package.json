@@ -4,6 +4,9 @@
   "description": "Algorithms in Javascript",
   "main": "index.js",
   "scripts": {
+    "docker:build": "docker build -t js-algorithms-runner .",
+    "docker:run": "docker run --name js-algorithms-container javascript-algorithms-runner",
+    "docker:clean": "docker rm -f js-algorithms-container && docker rmi js-algorithms-runner",
     "test": "jest",
     "clean": "rm -rf ./node_modules"
   },
