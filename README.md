@@ -11,14 +11,15 @@
 ```javascript
 //this reverses an array in place
 function reverseArray(array) {
-  let i = 0, len = array.length-1;
+  let start = 0;
+  let end = array.length - 1;
 
-  while (i < len) {
-    const swap = array[i];
-    array[i] = array[len];
-    array[len] = swap;
-    i++;
-    len--;
+  while (start < end) {
+    const swap = array[start];
+    array[start] = array[end];
+    array[end] = swap;
+    start++;
+    end--;
   }
 
   return array;
