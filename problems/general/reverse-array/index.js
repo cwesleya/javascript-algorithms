@@ -6,7 +6,14 @@
 */
 
 function reverseArray(array) {
-
+  const reversed = [];
+  for (let i = array.length - 1; i >= 0; i--) {
+    reversed.push(array[i]);
+  }
+  
+  return reversed;
 }
 
-//module.exports = reverseArray;
+reverseArray([1, 2, 3, 4]);
+
+module.exports = reverseArray;

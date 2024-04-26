@@ -7,7 +7,12 @@ Write a function that takes returns the sum of all numbers between n and m inclu
 */
 
 function sumRange(n, m) {
-
+  let sum = 0;
+  for (let i = n ; i <= m; i++) {
+    sum = sum + i;
+  }
+  
+  return sum;
 }
 
-//module.exports = sumRange;
+module.exports = sumRange;

@@ -6,8 +6,16 @@ Have it return the missing number.
  * @return {number}
 */
 
-function findMissingNumber(array) {
 
+//Not getting this one correct 
+
+function findMissingNumber(array) {
+  const missArr = array;
+  const fullArr = [1, 2, 3, 4, 5, 6, 7, 8];
+  const results = fullArr.filter((num) => missArr.indexOf(num) == -1);
+  return results;
 }
 
-//module.exports = findMissingNumber;
+findMissingNumber([1, 2, 3, 5]);
+
+module.exports = findMissingNumber;

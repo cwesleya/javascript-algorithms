@@ -6,7 +6,10 @@
 */
 
 function sqrt(n) {
-
+  let sqrtT = Math.trunc(Math.sqrt(n));
+  return sqrtT;
 }
 
-//module.exports = sqrt;
+sqrt(17)
+
+module.exports = sqrt;
