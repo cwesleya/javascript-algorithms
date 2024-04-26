@@ -3,6 +3,7 @@
 ## The aim of this repo is to help you learn to think like a programmer while learning Javascript. Along the way, you can learn lessons about:
   - `git`, which is what you will use to interact with this repo
   - `jest`, the testing framework this repo uses to test your solutions
+  - `Docker`, the most widely used [containerization](https://aws.amazon.com/what-is/containerization/) platform
   - and `node`, which you will need in order to run any of this code outside of a browser.
 
 ### As far as possible, try to solve these problems without using built-in javascript methods. For example, if a problem says to reverse an array, don't use `.reverse()`! Rather, write a function that tries to do what `.reverse()` does under the hood. That's how you learn to think like a programmer. It would go something like this:
@@ -113,12 +114,12 @@ To add a solution, go to the `index.js` file for a given problem.
 Add your solution inside the function and un-comment the `module.exports = <functionName>;` line at the bottom.
 
 ### Running with Docker
-If you have [Docker](https://hub.docker.com/), the command `npm run docker:build` will build the image and `npm run docker:run` will run the application tests and output your answer(s) in the console. 
+I highly recommend running this application with Docker. If you have [Docker](https://hub.docker.com/) (get it [here](https://www.docker.com/get-started/)), the command `npm run docker:build` will build the image and `npm run docker:run` will run the application tests and output your answer(s) in the console.
 
 You can remove the container and image with `npm run docker:clean`.
 
 ### Running without Docker
-If you do not have Docker, to run this application you will need [Node](https://nodejs.org/), preferably version 21 or later.
+If you do not want to use Docker, to run this application you will need [Node](https://nodejs.org/), preferably version 21 or later.
 
 Navigate to the root directory of the repository.
 
